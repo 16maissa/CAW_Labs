@@ -1,0 +1,56 @@
+.formulaire-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .formulaire-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .formulaire-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formulaire-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .formulaire-form input,
+  .formulaire-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .formulaire-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .formulaire-submit {
+    padding: 10px 20px;
+    background-color: #b9b2a2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .formulaire-submit:hover {
+    background-color:#cfccc3;
+  }
+  
